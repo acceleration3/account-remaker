@@ -1,2 +1,2 @@
 # account-remaker
-A software designed to remake chatango accoutns as soon as they are avaliable
+A software designed to remake chatango accounts as soon as they are avaliable
