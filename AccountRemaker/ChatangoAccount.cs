@@ -17,6 +17,7 @@ namespace AccountRemaker
         public string Password { get; set; }
         public string Email { get; set; }
         public string Status { get; set; }
+        public bool showPassword;
 
         private string requestURL;
         private bool run = false;

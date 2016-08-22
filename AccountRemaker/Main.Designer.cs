@@ -64,9 +64,12 @@
             this.accountGrid.Name = "accountGrid";
             this.accountGrid.ReadOnly = true;
             this.accountGrid.RowHeadersVisible = false;
+            this.accountGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.accountGrid.Size = new System.Drawing.Size(403, 273);
             this.accountGrid.TabIndex = 0;
+            this.accountGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.accountGrid_CellClick);
             this.accountGrid.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.accountGrid_CellPainting);
+            this.accountGrid.KeyDown += new System.Windows.Forms.KeyEventHandler(this.accountGrid_KeyDown);
             // 
             // Column1
             // 
